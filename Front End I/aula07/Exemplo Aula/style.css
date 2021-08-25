@@ -1,0 +1,29 @@
+body {
+    
+    background-color: #91c516;
+
+}
+
+/* Pode-se usar vários seletores com a mesma personalização, basta separar por vírula.*/
+.titulo-principal, h1 {
+
+    color: rgb(30, 144, 210);
+    font-size: 50px;
+
+}
+
+/* Cada id devem ser único*/
+#titulo {
+
+    color: lime;
+    font-size: 40px;
+
+}
+
+/* Nós vamos estilizar o elemento a que estiver dentro de card */
+
+.card a, .card h1, .card p {
+
+    font-size: 40px;
+
+}

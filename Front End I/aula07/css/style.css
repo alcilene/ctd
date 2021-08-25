@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700;900&display=swap');
+
+body {
+    background: #ceced9;
+    color: rgb(51, 51, 51);
+    font-family: 'Titillium Web', sans-serif;
+    padding: 2%;
+    
+}
+
+h1 {
+    color: #38465f;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(56, 70, 95);
+}
+
+.job-title {
+    background-color: rgb(19, 211, 164);
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+
+}
+
+
+#high {
+    color: rgb(56, 70, 95);
+}
+
+ul {
+    background-color: #13d3a4;
+    color:rgb(254, 254, 254);
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 10px;
+
+}
+
+a {
+    color: #546886;
+}
