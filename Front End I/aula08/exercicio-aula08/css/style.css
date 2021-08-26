@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+body {
+
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background-color: #1d2236;*/
+    padding: 0 3% ;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.media-picture {
+
+    height: 400px;
+    background-image: url('/exercicio-aula08/img/wonderwoman.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.review-score {
+
+    height: 50px;
+    background-color: #c41f1b;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+h1, h2 {
+
+    color: #d4a65f;
+
+}
+
+p {
+
+    color: #dadada;
+    font-weight: 300;
+}
+
+a {
+
+    color: #d4a65f;
+
+}
+
+
+

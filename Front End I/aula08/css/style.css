@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+
+.titulo-principal {
+
+color: rgb(59, 138, 121);
+font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+
+}
+
+
+.conteudo-principal {
+
+    height: 300px;
+    background-image: url('https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.conteudo-principal p {
+    color: white;
+    text-align: center;
+}
