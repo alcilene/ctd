@@ -1,0 +1,26 @@
+RECEITA DE BOLO
+
+PADRÕES
+
+* Ingredientes
+* Utensílios
+* Eletrodomésticos
+
+DECOMPOR
+
+* Separar os tipos de ingredientes nas quantidades corretas
+* Identificar os utensílios (forma, batedeira, tigela, etc...)
+* Forno para assar
+
+ABSTRAÇÕES
+
+* O formato e o tamanho da forma de bolo 
+* Temperatura dos ingredientes
+* Usar a tigela para misturar os secos
+* batedeira para misturar os líquidos
+
+ALGORITMOS
+
+* Misturar os ingredientes
+* Colocar na forma
+* Colocar no forno pré-aquecido na temperatura correta por determinado tempo.
