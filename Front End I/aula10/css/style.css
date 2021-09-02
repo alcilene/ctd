@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+.banner {
+    height: 300px;
+    background-image: url('/img/donut.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.header {
+    
+    padding: 30px;  
+    
+}
+
+.header h1 {
+    font-size: 50px;
+    
+}
+
+.titulo-principal{
+    color: #ffffff;
+}
+
+button {
+    margin-top: 30px;
+    background-color: #FD6F96;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px ;
+    /* padding: 10px 50px; */
+    
+}
