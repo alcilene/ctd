@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+
+    height: 4000px;
+
+}
+
+.box{
+
+    width: 200px;
+    height: 200px;    
+
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+}
+
+.texto {
+
+    padding: 30px;
+    /* top: 50%; */
+    left: calc(50% - 150px / 2);
+    top: calc(50% - 150px / 2) ;
+    
+
+}
+
+.box-first {
+
+    background-color: #ffc2cc;
+    position: relative; /*O objeto continua tendo sua referÊncia no mesmo lugar e é alterado apenas visualmente*/
+    
+}
+.box-first1 {
+
+    background-color: #c2ffff;
+    position: relative; /*O objeto continua tendo sua referÊncia no mesmo lugar e é alterado apenas visualmente*/
+    left: calc(50% - 150px / 2);
+    top: calc(50% - 150px / 2) ;
+}
+
+.box-second {
+
+    background-color: #df8997;
+    position: absolute;/*A referência é o navegador, ou seja: ele fica flutuando*/
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+.box-second2 {
+
+    background-color: #e2c2ff;
+    position: relative; /*O objeto continua tendo sua referÊncia no mesmo lugar e é alterado apenas visualmente*/
+    left: calc(50% - 150px / 2);
+    top: calc(50% - 150px / 2) ;
+}
+
+.box-third {
+    background-color: #cf4f65;
+    position: fixed; /* Deixa fixo na tela*/
+    bottom: 0px;
+    left: calc(50% - 250px / 2); /*Centralizando 50% - tamanho do quadrado dividido por 2*/
+
+    
+}
+
+.box-third3 {
+
+    background-color: #c2d2ff;
+    position: relative; /*O objeto continua tendo sua referÊncia no mesmo lugar e é alterado apenas visualmente*/
+    left: calc(50% - 150px / 2);
+    top: calc(50% - 150px / 2) ;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            border: 0;
+        }
+        body{
+
+            height: 4000px;
+
+        }
+
+        .box{
+
+            width: 100px;
+            height: 100px;
+            
+
+        }
+
+        .box-first {
+            background-color: pink;
+            position: relative; /*O objeto continua tendo sua referÊncia no mesmo lugar e é alterado apenas visualmente*/
+            /* top: 100px; */
+            bottom: 20px;
+        }
+
+        .box-second {
+
+            background-color: rgb(36, 46, 192);
+            position: absolute;/*A referência é o navegador, ou seja: ele fica flutuando*/
+            height: 100%;/* Pega 100% da altura definida*/
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+        }
+
+        .box-third {
+            background-color: rgb(24, 177, 62);
+            position: fixed; /* Deixa fixo na tela*/
+            top: 0px;
+            left: calc(50% - 250px / 2); /*Centralizando 50% - tamanho do quadrado dividido por 2*/
+
+            
+        }
+
+        .box-fourth {
+            background-color: rgb(24, 141, 177);
+            
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="box box-first"></div>
+    <div class="box box-second"></div>
+    <div class="box box-third"></div>
+    <div class="box box-fourth"></div>
+    
+</body>
+</html>
