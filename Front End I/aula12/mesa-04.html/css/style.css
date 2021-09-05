@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;}
+
+body {
+    
+    background-color: #dfdfdf;
+    height: 1000px;
+}
+
+.main-menu {
+
+    background-color: #fff159;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+    
+}
+
+.main-menu img {
+
+    width: 120px;
+    text-align: center;
+    top: 0;
+    padding: 0;
+    
+}
+
+.main-menu a {
+
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(52, 70, 70);
+    font-size: 14px;
+
+}
+
+
+
+main {
+    margin-top: 70px; /* margem para não cortar o conteúdo de baixo*/
+}
+
+.banner {
+
+    height: 400px;
+
+    background-image: url('https://http2.mlstatic.com/D_NQ_880138-MLA47307042196_082021-OO.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+
+}
+
+.caixa-produtos{
+    display: flex;
+    justify-content: center; 
+}
+.produtos {
+
+    background-color: white;
+    width: 300px ;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 10px; 
+    display: inline-block;
+
+}
+
+.produtos img {
+
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+.produtos h1 {
+
+    font-size: 23px;
+    padding: 10px;
+
+}
+
+.produtos p {
+
+    font-size: 15px;
+    padding: 10px;
+    color: #b1b1b1;
+
+}
+
+.produtos button {
+
+    background-color: #fff159;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+footer {
+    margin-top: 70px;
+}
+
+.whatsapp-button {
+    
+    background-color: green;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 100%;
+
+}
+
+.whatsapp-button img {
+    width: 100px ;
+    padding: 20px;
+
+}
+
+
+
+
