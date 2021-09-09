@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;500;700&display=swap');
+
+body {
+    background-color: #E05D5D;
+    font-family: 'Glory', sans-serif;
+    
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 22px;
+    
+
+}
+
+input, select, textarea {
+
+    background-color: #FFF8E5;
+    display: block; /*Ocupa 100% do espaço*/
+    width: 350px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    font-family: 'Glory', sans-serif;
+
+}
+img {
+    width: 200px;
+}
+
+/* div {
+    /* display: flex;
+    justify-content: space-between;
+} */
+
+div {
+    margin-bottom: 15px;
+}
+
+.button-submit {
+    background-color: #FFB344;
+    width: 180px;
+    padding: 12px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.button-reset {
+    background-color: #d8d8d800;
+    width: 180px;
+    padding: 12px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 3px #FFB344;
+    color: #FFB344;
+    font-size: 12px;
+    font-weight: 700;
+
+}

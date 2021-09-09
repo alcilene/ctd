@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    <form>
+
+        <img src="https://marcas-logos.net/wp-content/uploads/2020/01/Amazon-Logo-1.png">
+        <h1>Formulário de Serviço</h1>
+        <div>
+            <label for="fullName">Nome completo</label>
+            <input required placeholder="Insira o seu nome" type="text" name="fullName" id="fullName">
+        </div>
+
+        <h2>Especificações</h2>
+
+        <div>
+            <label for="arte">Formato de Arte</label>
+            <select name="arte" id="arte">
+                <option value="1">Feed</option>
+                <option value="2">Stories</option>
+                <option value="3">Capa Facebook</option>
+                <option value="4">Personalizado</option>
+            </select>
+        </div>
+        <div>
+            <label for="observation">Observação</label>
+            <textarea placeholder="Insira com detalhes mais informações sobre o serviço" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <!-- <div>
+            <label for="fileUpload">RG Frente</label>
+            <input type="file" name="" id="">
+        </div> -->
+
+        <button class="button-submit" type="submit">Enviar</button>
+        <button class="button-reset" type="reset">Limpar o Formulário</button>
+        
+        
+    </form>
+</body>
+</html>

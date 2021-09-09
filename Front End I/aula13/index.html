@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        body {
+            background-color: #131313;
+        }
+
+        form {
+            background-color: aliceblue;
+            width: 400px;
+            margin: 0 auto;
+            padding: 22px;
+        }
+
+        input {
+
+            background-color: beige;
+            display: block; /*Ocupa 100% do espaço*/
+            padding: 12px;
+            border-radius: 12px ;
+        }
+        img {
+            width: 200px;
+        }
+
+        /* div {
+            /* display: flex;
+            justify-content: space-between;
+        } */
+
+    </style>
+</head>
+<body>
+    <form>
+
+        <img src="https://marcas-logos.net/wp-content/uploads/2020/01/Amazon-Logo-1.png">
+        <h1>Formulário de Cadastro</h1>
+        <div>
+            <label for="fullName">Nome completo</label>
+            <input required placeholder="Insira o seu nome" type="text" name="fullName" id="fullName">
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="birthDate">Data de Nascimento</label>
+            <input type="date" name="birthDate" id="birthDate">
+        </div>
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" required minlength="2" name="password" id="password">
+        </div>
+
+        <h2>Localização</h2>
+
+        <div>
+            <label for="city">Cidade</label>
+            <select name="city" id="city">
+                <option value="1">São Paulo</option>
+                <option value="2">São Roque</option>
+                <option value="3">Rio de Janeiro</option>
+                <option value="4">Pindamonhangaba</option>
+            </select>
+        </div>
+        <div>
+            <label for="observation">Observação</label>
+            <textarea placeholder="Insira com detalhes como sua entrega será feita." name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <!-- <div>
+            <label for="fileUpload">RG Frente</label>
+            <input type="file" name="" id="">
+        </div> -->
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar o Formulário</button>
+        
+        
+    </form>
+</body>
+</html>
