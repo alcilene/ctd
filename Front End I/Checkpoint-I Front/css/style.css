@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Cabin:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+
+body {
+
+    background-image: url("/img/florianopolis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+.titulo-principal {
+
+    color:#ffffff;
+    font-family: Kaushan Script, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+.conteudo-principal {
+
+    padding: 0 20px;
+    color: #ffffff;
+
+}
+
+.conteudo-principal p {
+    
+    width: 1280px;
+    color: #ffffff;
+    text-align: justify;
+    font-family: Cabin, Arial, Helvetica, sans-serif;
+    margin: 0 auto ;
+    padding: 20px 0
+}
+
+.video {
+
+    text-align: center;
+
+
+}
+.video iframe {
+
+    width: 1280px;
+    height: 720px;
+    margin: 20px;
+}
+
+.titulo-curiosidades {
+
+    text-align: center;
+    margin: 20px 0;   
+    font-family: Kaushan Script, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+
+.curiosidades {
+
+    /* border: solid 3px yellow; */
+    font-family: Cabin;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 30px 0 ;
+
+}
+
+.curiosidades .lista {
+
+    margin: 0 10px;
+    background-color:#bdbdff13 ;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+.curiosidades h2 {
+    /* text-align: center; */
+    margin: 20px;
+    
+}
+
+.curiosidades ol {
+    width: 570px;
+}
+
+.curiosidades ol li {
+    
+    padding: 10px;
+
+}
+
+footer {
+
+    margin: 0 auto;
+    background-color: rgba(21, 21, 82, 0.425);
+    display: block;    
+    width: 100%;
+    height: 200px;
+    color: #ffffff;
+
+}
+
+footer h2 {
+
+    text-align: center;
+    margin: 20px 0;  
+    padding: 20px 0; 
+    font-family: Kaushan Script, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+
+}
+
+.redes-sociais {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: justify;
+    
+}
+
+
+
+.instagram {
+
+    padding: 0 20px;
+    
+}
+
+.youtube {
+
+    padding: 0 20px;
+
+}
+
+footer img {
+
+    width: 50px;
+    height: 50px;
+   
+
+}
