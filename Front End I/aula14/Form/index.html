@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form>
+
+        <img src="/img/logo-candy-shop.png">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+                <div>
+                    <label for="fullName">Nome completo</label>
+                    <input class="nome" required placeholder="Insira o seu nome" type="text" name="fullName" id="fullName">
+                </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Escolha seu produto</legend>
+            <div>
+                
+                <input type="radio" checked name="candy" id="bolo" value="bolo">
+                <label for="bolo">Bolo</label>
+                <input type="radio" name="candy" id="cupcake" value="cupcake">
+                <label for="cupcake">Cupcake</label>
+                <input type="radio" name="candy" id="trufa" value="trufa">
+                <label for="trufa">Trufa</label>
+                <input type="radio" name="candy" id="donuts" value="donuts">
+                <label for="donuts">Donuts</label>
+                <input type="radio" name="candy" id="alfajor" value="alfajor">
+                <label for="alfajor">Alfajor</label>
+    
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Especificações</legend>
+
+            <div>
+                <label for="recheios">Recheios</label>
+                <select class="recheios" name="recheios" id="recheios">
+                    <option value="cremePatissierreTradicional">Creme patisserie tradicional </option>
+                    <option value="patissiereDeChocolate">Patisserie de Chocolate</option>
+                    <option value="cocadaDaVovo">Cocada da vovó</option>
+                    <option value="mousseBranco">Mousse branco</option>
+                    <option value="mocaMaracuja">Moça de Maracujá</option>
+                    <option value="valsaTrufado">Valsa Trufado</option>
+                    <option value="recheioSensacao">Recheio sensação</option>
+                    <option value="ninhoComChocolateBranco">Ninho com chocolate Branco</option>
+                    <option value="ferreroRocher">Ferrero Rocher</option>
+                    <option value="ouroBrancoRefinado">Ouro Branco Refinado</option>
+            
+                </select>
+
+            </div>
+            
+            <div>
+                <label for="quantidade">Quantidade</label>
+                <select class="quantidade" name="quantidade" id="quantidade">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+            
+                </select>
+            </div>
+
+
+            <div>
+                <h2>Escolha o tamanho do seu doce</h2>
+                <input type="radio" checked name="tamanho" id="tamanho" value="tamanho">
+                <label for="tamanho">P</label>
+                <input type="radio" checked name="tamanho" id="tamanho" value="tamanho">
+                <label for="tamanho">M</label>
+                <input type="radio" checked name="tamanho" id="tamanho" value="tamanho">
+                <label for="tamanho">G</label>
+            </div>
+
+            <div>
+                <label for="observation">Observação</label>
+                <textarea placeholder="Insira com detalhes mais informações sobre o serviço" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        
+        
+        <!-- <div>
+            <label for="fileUpload">RG Frente</label>
+            <input type="file" name="" id="">
+        </div> -->
+
+        <button class="button-submit" type="submit">Enviar</button>
+        <button class="button-reset" type="reset">Limpar o Formulário</button>
+        
+        
+        
+    </form>
+</body>
+</html>

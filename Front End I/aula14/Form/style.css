@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200;500;700&display=swap');
+
+body {
+    background-color: #da2779;
+    font-family: 'Glory', sans-serif;
+    
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 22px;
+    
+}
+
+fieldset {
+    margin: 20px 0 ;
+    color: #242b51;
+    border: none;
+}
+
+legend {
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+textarea{
+    background-color: #ffd9dd;
+    display: block; /*Ocupa 100% do espaço*/
+    width: 95%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    height: 80px;
+    font-family: 'Glory', sans-serif;
+}
+
+.nome {
+
+    background-color: #ffd9dd;
+    display: block; /*Ocupa 100% do espaço*/
+    width: 95%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    font-family: 'Glory', sans-serif;
+
+}
+
+
+img {
+    width: 400px;
+    
+}
+
+/* div {
+    /* display: flex;
+    justify-content: space-between;
+} */
+.recheios, .quantidade {
+    background-color: #ffd9dd;
+    display: block; /*Ocupa 100% do espaço*/
+    width: 95%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    font-family: 'Glory', sans-serif;
+}
+        
+div {
+    margin-bottom: 15px;
+}
+
+.button-submit {
+    background-color: #eeba2c;
+    width: 180px;
+    padding: 12px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.button-reset {
+    background-color: #d8d8d800;
+    width: 180px;
+    padding: 12px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 3px #eeba2c;
+    color: #eeba2c;
+    font-size: 12px;
+    font-weight: 700;
+
+}
