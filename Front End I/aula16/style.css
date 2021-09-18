@@ -1,0 +1,52 @@
+button {
+
+    border: 0;
+    padding: 12px 24px;
+    background-color: salmon;
+    color: white ;
+    border-radius: 12px;
+    transition-duration: 1s;
+}
+
+button:hover {
+
+    border-radius: 24px;
+    background-color: violet;
+
+}
+
+a:link {
+
+    color: red;
+}
+
+a:visited {
+
+    color: green;
+
+}
+
+input:focus {
+
+    background-color: violet;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:nth-child(2n) { /*Alterando o item a cada 2*/
+
+    color: red;
+}
+
+p::before {
+    content: 'Paragrafo';
+    background-color: red;
+}
+
+p::after {
+    content: 'Fim do Parágrafo';
+    background-color: green;
+}
