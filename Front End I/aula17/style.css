@@ -1,0 +1,70 @@
+@keyframes shake {
+
+    0% {
+
+        background-color: salmon;
+        transform: translateX(20px);
+
+    }
+    /* 50%{
+
+        transform: translateX(-20px)
+
+    } */
+    100% {
+        background-color: sandybrown;
+        transform: translateX(-20px);
+
+    }
+
+}
+
+button {
+
+    border: none;
+    padding: 12px 42px;
+    /* transition */
+    transition: 2s;
+    /* transition-duration: 5s;
+    transition-timing-function: ease-in-out; */
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    margin: 50vh auto;
+    display: block;
+
+
+}
+
+button:hover {
+
+    /* background-color: aquamarine; */
+    /* padding: 60px; */
+    /* transform: rotate(-20deg); */
+    /* transform: scale(2); */
+    /* transform: skew(20deg); */
+    /* transform: translate(20px, 40px); */
+    /* transform: rotate(-20deg) scale(2) skew(20deg) translate(20px, 40px); */
+    
+}
+
+@keyframes fadeUp {
+
+    0% {
+        opacity: 0;
+        transform:  translateY(200px);
+    }
+    100% {
+        opacity: 1;
+    }
+
+
+}
+
+p {
+
+    animation: fadeUp 2s;
+
+}

@@ -1,0 +1,100 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    height: 100vh;
+    justify-content: center; /*Alinhar Horizontalmente*/
+    align-items: center; /*Alinhar Verticalmente*/
+}
+
+@keyframes bolinha {
+    0% {
+        opacity: 0%;
+    }
+    25% {
+        transform: translateX(20px);
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+
+
+.bola {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 89, 255);
+    border-radius: 100%;
+    
+    animation: bolinha 3s infinite;
+
+}
+
+@keyframes movement {
+    0% {
+        
+        transform: rotate(0deg) translateY(0px); 
+    }
+    25% {
+        transform: rotate(90deg) translateY(20px);
+    }
+    50% {
+        transform: rotate(180deg) translateY(-20px) ;
+    }
+    75% {
+        transform: rotate(270deg) translateX(-20px) ;
+    }
+    100% {
+        transform: rotate(360deg) translateX(0px); 
+    }
+}
+
+img {
+
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    animation: movement 3s infinite;
+}
+
+@keyframes shake {
+
+    0% {
+
+        background-color: rgb(250, 114, 189);
+        transform: translateX(20px);
+
+    }
+    /* 50%{
+
+        transform: translateX(-20px)
+
+    } */
+    100% {
+        background-color: rgb(180, 27, 129);
+        transform: translateX(-20px);
+
+    }
+
+}
+
+button {
+
+    border: none;
+    padding: 12px 42px;
+    /* transition */
+    transition: 2s;
+    /* transition-duration: 5s;
+    transition-timing-function: ease-in-out; */
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+
+
+}
