@@ -22,6 +22,4 @@ curso.js
 
 # Execute a aplicação
 $ node curso.js
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
